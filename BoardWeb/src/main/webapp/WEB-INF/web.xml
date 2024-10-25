@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="https://jakarta.ee/xml/ns/jakartaee"
+	xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+	id="WebApp_ID" version="6.0">
+	<display-name>BoardWeb</display-name>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>  
+	 
+	<!-- Global Parameter -->
+	<context-param>
+		<param-name>ApplicationName</param-name>		
+		<param-value>BoardWebApp</param-value>
+	</context-param>
+	
+<!-- 	
+	<listener>
+		<listener-class>com.multicampus.web.common.BoardWebServletContextListener</listener-class>
+	</listener>
+	
+	<filter>
+		<filter-name>timeCheck</filter-name>
+		<filter-class>com.multicampus.web.common.TimeCheckFilter</filter-class>
+	</filter>
+	
+	<filter-mapping>
+		<filter-name>timeCheck</filter-name>
+		<url-pattern>*.do</url-pattern>
+	</filter-mapping>
+
+ 	<servlet>
+		<servlet-name>insertBoard</servlet-name>
+		<servlet-class>com.multicampus.web.board.InsertBoardServlet</servlet-class>
+		<init-param>
+			<param-name>Author</param-name>
+			<param-value>채규태</param-value>
+		</init-param>
+		<init-param>
+			<param-name>createDate</param-name>
+			<param-value>2024.10.23</param-value>
+		</init-param>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>insertBoard</servlet-name>
+		<url-pattern>/insertBoard.do</url-pattern>
+	</servlet-mapping>
+ -->
+</web-app>
+
+
+
+
+
+
+
